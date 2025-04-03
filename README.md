@@ -7,7 +7,7 @@ Sign Language Recognition is an Python-based that translates hand gestures into 
 ![image](https://github.com/user-attachments/assets/cab01b86-7985-4438-9acb-bc92a6c72f53)
                  Recognition of Hand gesture: In the above image it classifies the hand gesture as Letter – “L” 
 ![image](https://github.com/user-attachments/assets/b014246d-eb69-43ce-a85c-e76d7ddc1fa1)
-                Recognition of Hand gesture: In the above image it classifies the hand gesture as Letter – “W”
+                                          Recognition of Hand gesture: In the above image it classifies the hand gesture as Letter – “W”
                 
 # Table of Contents
 [Overview](#overview)  
@@ -81,7 +81,7 @@ The training process involves:
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request.
 
 # License
-This section states that the Realtime Sign Language Recognition project is released under the Apache License.
+This section states that the Realtime Sign Language Recognition project is released under the MIT License.
 
 # Contact
 For any questions or inquiries, feel free to contact me at geethikareddy105@gmail.com
