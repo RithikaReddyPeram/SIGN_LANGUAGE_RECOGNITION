@@ -1,0 +1,6 @@
+opencv-python
+numpy
+keras
+tensorflow
+pyttsx3
+pyspellchecker
