@@ -1,23 +1,25 @@
 # SIGN_LANGUAGE_RECOGNITION
 Sign Language Recognition is an Python-based that translates hand gestures into text with speech using computer vision, and machine learning algorithms. It enhances communication for the deaf by recognizing gestures via cameras  and mapping them to meaningful words.
+
 # Final Result
-           ![image](https://github.com/user-attachments/assets/4bf94395-6268-439f-934b-121c23f8a938)
+![image](https://github.com/user-attachments/assets/4bf94395-6268-439f-934b-121c23f8a938)
                  This is the output we got after running the code
-           ![image](https://github.com/user-attachments/assets/cab01b86-7985-4438-9acb-bc92a6c72f53)
+![image](https://github.com/user-attachments/assets/cab01b86-7985-4438-9acb-bc92a6c72f53)
                  Recognition of Hand gesture: In the above image it classifies the hand gesture as Letter – “L” 
-           ![image](https://github.com/user-attachments/assets/b014246d-eb69-43ce-a85c-e76d7ddc1fa1)
+![image](https://github.com/user-attachments/assets/b014246d-eb69-43ce-a85c-e76d7ddc1fa1)
                 Recognition of Hand gesture: In the above image it classifies the hand gesture as Letter – “W”
+                
 # Table of Contents
 [Overview](#overview)  
 [Dataset](#dataset)  
-[Installation](#installation)  
+[Installation](#installation) 
+[Limitations](#Limitations)
 [Project Structure](#project-structure)  
 [Data Preprocessing](#data-preprocessing)  
-[Model Training](#model-training)  
-[Evaluation](#evaluation)  
-[Results](#results)  
+[Model Training](#model-training)
 [Contributing](#contributing)  
 [License](#license) 
+[Contact](#Contact)  
 
 # Overview 
 Sign Language Recognition is an python-based that translates hand gestures into text with speech, enabling communication for the deaf and hard-of-hearing. This project uses Convolutional Neural Networks (CNNs) to recognize and classify sign language gestures based on image or video input, improving accessibility and interaction.
@@ -31,6 +33,9 @@ Sign Language Recognition is an python-based that translates hand gestures into 
 - Other relevant features  
 
 The dataset contains features for accurately recognizing and classifying sign language gestures.
+Datasets :
+![image](https://github.com/user-attachments/assets/13e1fc62-8c43-41bc-b782-3bf834847841)
+![image](https://github.com/user-attachments/assets/27e9a19a-dc08-420d-a878-0817343ad16b)
 
 # Installation
 To run this project locally, follow these steps:  
@@ -39,67 +44,48 @@ To run this project locally, follow these steps:
 git clone https://github.com/RithikaReddyPeram/SIGN_LANGUAGE_RECOGNITION.git
 2. Install the required packages: pip install -r requirements.txt
 
+# Limitations
+- Covering all the alphabets from A-Z and two more are Space and Nothing hand gestures.
+
 # Project-Structure
-code/: Contains the main Python scripts for sign language recognition  
-datasets/: Contains image datasets used for training and testing  
-app.py: Main Flask application for running the model  
-model.h5: Trained machine learning model for recognizing sign language gestures  
-gesture's.jpg: Sample image of sign language gestures  
-README.md: Project documentation  
-LICENSE: License information for the project  
-requirements.txt: List of required Python packages 
+- code/: Contains the main Python scripts for sign language recognition  
+- datasets/: Contains image datasets used for training and testing  
+- app.py: Main Flask application for running the model  
+- model.h5: Trained machine learning model for recognizing sign language gestures  
+- gesture's.jpg: Sample image of sign language gestures  
+- README.md: Project documentation  
+- LICENSE: License information for the project  
+- requirements.txt: List of required Python packages 
 
 # Data Preprocessing
 The data preprocessing steps include:  
 
-1. Image resizing and normalization  
-2. Data augmentation to improve model generalization  
-3. Converting images to grayscale for better feature extraction  
-4. Splitting the dataset into training and testing sets
+- Image resizing and normalization  
+- Data augmentation to improve model generalization  
+- Converting images to grayscale for better feature extraction  
+- Splitting the dataset into training and testing sets
 
 # Model-Training
 A Convolutional Neural Network (CNN) is trained for sign language recognition: Gesture Recognition Model--Classifies hand gestures into corresponding sign language symbols.  
 
 The training process involves:  
 
-1. Splitting the dataset into training and testing sets  
-2. Data augmentation to enhance model robustness
-3. Initializing the CNN architecture for feature extraction
-4. Training the model using labeled gesture images
-5. Fine-tuning hyperparameters to improve accuracy  
-
-# Evaluation  
-The model's performance is evaluated using various metrics, including:  
-
-- Accuracy  
-- Precision  
-- Recall  
-- F1 Score  
-- Confusion Matrix
-
-# Results  
-- Accuracy: 92.5%  
-- Precision: 0.94  
-- Recall: 0.91  
-- F1 Score: 0.92  
-
-# Confusion Matrix:  
-![Confusion Matrix](path/to/confusion_matrix.png)  
-
-# ROC Curve:  
-![ROC Curve](path/to/roc_curve.png)  
-
-# Model Performance Visualization:  
-![Model Performance](path/to/model_performance.png)  
-
-## Flask App  
-The trained model is deployed using a Flask web application. The app captures real-time hand gestures via camera, processes them through the trained model, and displays the corresponding sign language text with speech output.  
-
+- Splitting the dataset into training and testing sets  
+- Data augmentation to enhance model robustness
+- Initializing the CNN architecture for feature extraction
+- Training the model using labeled gesture images
+- Fine-tuning hyperparameters to improve accuracy  
+  
 ## Contributing  
-Contributions are welcome! Please feel free to submit a Pull Request or open an Issue.  
+Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request.
 
-## License  
-This project is licensed under the MIT License - see the LICENSE file for details.  
+# License
+This section states that the Realtime Sign Language Recognition project is released under the Apache License.
+
+# Contact
+For any questions or inquiries, feel free to contact me at geethikareddy105@gmail.com
+
+
 
 
 
