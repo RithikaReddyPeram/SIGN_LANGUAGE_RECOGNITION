@@ -8,7 +8,7 @@ Recognition of Hand gesture: In the above image it classifies the hand gesture a
 ![image](https://github.com/user-attachments/assets/b014246d-eb69-43ce-a85c-e76d7ddc1fa1)
 Recognition of Hand gesture: In the above image it classifies the hand gesture as Letter – “W”
 # Table of Contents
-Overview
+#Overview
 Dataset
 Installation
 Project Structure
