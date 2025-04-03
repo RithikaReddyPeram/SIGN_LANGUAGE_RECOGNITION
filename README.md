@@ -84,7 +84,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 This section states that the Realtime Sign Language Recognition project is released under the MIT License.
 
 # Contact
-For any questions or inquiries, feel free to contact me at geethikareddy105@gmail.com
+For any questions or inquiries, feel free to contact me at geethikareddy105@gmail.com to get this Full Project Code, PPT, Report, Synopsis and Research paper of this Project.
 
 
 
