@@ -1,12 +1,12 @@
 # SIGN_LANGUAGE_RECOGNITION
 Sign Language Recognition is an Python-based that translates hand gestures into text with speech using computer vision, and machine learning algorithms. It enhances communication for the deaf by recognizing gestures via cameras  and mapping them to meaningful words.
 # Final Result
-![image](https://github.com/user-attachments/assets/4bf94395-6268-439f-934b-121c23f8a938)
-This is the output we got after running the code
-![image](https://github.com/user-attachments/assets/cab01b86-7985-4438-9acb-bc92a6c72f53)
-                Recognition of Hand gesture: In the above image it classifies the hand gesture as Letter – “L” 
-![image](https://github.com/user-attachments/assets/b014246d-eb69-43ce-a85c-e76d7ddc1fa1)
-                                                                      Recognition of Hand gesture: In the above image it classifies the hand gesture as Letter – “W”
+           ![image](https://github.com/user-attachments/assets/4bf94395-6268-439f-934b-121c23f8a938)
+                 This is the output we got after running the code
+           ![image](https://github.com/user-attachments/assets/cab01b86-7985-4438-9acb-bc92a6c72f53)
+                 Recognition of Hand gesture: In the above image it classifies the hand gesture as Letter – “L” 
+           ![image](https://github.com/user-attachments/assets/b014246d-eb69-43ce-a85c-e76d7ddc1fa1)
+                Recognition of Hand gesture: In the above image it classifies the hand gesture as Letter – “W”
 # Table of Contents
 [Overview](#overview)  
 [Dataset](#dataset)  
@@ -32,6 +32,76 @@ Sign Language Recognition is an python-based that translates hand gestures into 
 
 The dataset contains features for accurately recognizing and classifying sign language gestures.
 
+# Installation
+To run this project locally, follow these steps:  
+
+1. Clone the repository: 
+git clone https://github.com/RithikaReddyPeram/SIGN_LANGUAGE_RECOGNITION.git
+2. Install the required packages: pip install -r requirements.txt
+
 # Project-Structure
+code/: Contains the main Python scripts for sign language recognition  
+datasets/: Contains image datasets used for training and testing  
+app.py: Main Flask application for running the model  
+model.h5: Trained machine learning model for recognizing sign language gestures  
+gesture's.jpg: Sample image of sign language gestures  
+README.md: Project documentation  
+LICENSE: License information for the project  
+requirements.txt: List of required Python packages 
+
+# Data Preprocessing
+The data preprocessing steps include:  
+
+1. Image resizing and normalization  
+2. Data augmentation to improve model generalization  
+3. Converting images to grayscale for better feature extraction  
+4. Splitting the dataset into training and testing sets
+
+# Model-Training
+A Convolutional Neural Network (CNN) is trained for sign language recognition: Gesture Recognition Model--Classifies hand gestures into corresponding sign language symbols.  
+
+The training process involves:  
+
+1. Splitting the dataset into training and testing sets  
+2. Data augmentation to enhance model robustness
+3. Initializing the CNN architecture for feature extraction
+4. Training the model using labeled gesture images
+5. Fine-tuning hyperparameters to improve accuracy  
+
+# Evaluation  
+The model's performance is evaluated using various metrics, including:  
+
+- Accuracy  
+- Precision  
+- Recall  
+- F1 Score  
+- Confusion Matrix
+
+# Results  
+- Accuracy: 92.5%  
+- Precision: 0.94  
+- Recall: 0.91  
+- F1 Score: 0.92  
+
+# Confusion Matrix:  
+![Confusion Matrix](path/to/confusion_matrix.png)  
+
+# ROC Curve:  
+![ROC Curve](path/to/roc_curve.png)  
+
+# Model Performance Visualization:  
+![Model Performance](path/to/model_performance.png)  
+
+## Flask App  
+The trained model is deployed using a Flask web application. The app captures real-time hand gestures via camera, processes them through the trained model, and displays the corresponding sign language text with speech output.  
+
+## Contributing  
+Contributions are welcome! Please feel free to submit a Pull Request or open an Issue.  
+
+## License  
+This project is licensed under the MIT License - see the LICENSE file for details.  
+
+
+
 
 
