@@ -12,14 +12,15 @@ Sign Language Recognition is an Python-based that translates hand gestures into 
 # Table of Contents
 [Overview](#overview)  
 [Dataset](#dataset)  
-[Installation](#installation) 
-[Limitations](#Limitations)
+[Installation](#installation)  
+[Limitations](#limitations)  
 [Project Structure](#project-structure)  
 [Data Preprocessing](#data-preprocessing)  
-[Model Training](#model-training)
+[Model Training](#model-training)  
 [Contributing](#contributing)  
-[License](#license) 
-[Contact](#Contact)  
+[License](#license)  
+[Contact](#contact)  
+  
 
 # Overview 
 Sign Language Recognition is an python-based that translates hand gestures into text with speech, enabling communication for the deaf and hard-of-hearing. This project uses Convolutional Neural Networks (CNNs) to recognize and classify sign language gestures based on image or video input, improving accessibility and interaction.
